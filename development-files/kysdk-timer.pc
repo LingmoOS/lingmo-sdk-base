@@ -1,0 +1,6 @@
+Name: lingmo-sdk-timer
+Description: kysdk base layer time component
+Requires: kysdk-utils
+Version: 2.0.0
+Cflags: -I/usr/include/kysdk/kysdk-base/
+Libs: -L/usr/lib/kysdk/kysdk-base/ -lkytimer -Wl,-rpath=/usr/lib/kysdk/kysdk-base/

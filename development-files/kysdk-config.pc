@@ -1,0 +1,8 @@
+base_version=2.0.0
+
+Name: lingmo-sdk-config
+Description: kysdk base layer config component
+Requires: kysdk-utils
+Version: 2.0.0
+Cflags: -I/usr/include/kysdk/kysdk-base/
+Libs: -L/usr/lib/kysdk/kysdk-base/ -lkyconf -Wl,-rpath=/usr/lib/kysdk/kysdk-base/
